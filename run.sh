@@ -5,8 +5,8 @@
 # 重启：./run.sh -s reload
 # 关闭：./run.sh -s quit 
 # 
-NGX_BIN=~/openresty/nginx/sbin/nginx
-CUR_DIR=$(cd `dirname $0` && pwd)
+NGX_BIN=/usr/local/openresty/nginx/sbin/nginx
+CUR_DIR=/root/server
 
 if [ $1 ]; then
   PARAM="-s $1"
